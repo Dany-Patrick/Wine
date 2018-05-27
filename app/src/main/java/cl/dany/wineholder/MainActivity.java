@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
 
+
                 final Dialog dialog = new Dialog(MainActivity.this);
                 dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
                 dialog.setContentView(R.layout.dialog_wine);
